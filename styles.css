@@ -45,12 +45,12 @@ footer {
 
 .banner {
     position: relative;
-    height: 600px; /* Ajuste conforme necessário */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/alexander-grey-Wnkw2eNjvFc-unsplash.jpg); /* Adiciona um gradiente transparente sobre a imagem */
+    height: 600px; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/alexander-grey-Wnkw2eNjvFc-unsplash.jpg); 
     background-size: cover;
     background-position: center;
     color: #dddcef;
-    overflow: hidden; /* Garante que a camada ::before não ultrapasse os limites do contêiner .banner */  
+    overflow: hidden;  
 }
 
 .banner-content {
@@ -96,7 +96,7 @@ footer {
     padding: 50px 0;
     text-align: center;*/
    
-        background-image: url(/img/designerachit-cyOdMPtMxCU-unsplash.jpg); /* Substitua 'sua-imagem-de-fundo.jpg' pelo caminho da sua imagem */
+        background-image: url(/img/designerachit-cyOdMPtMxCU-unsplash.jpg); 
         background-size: cover;
         background-position: center;
 
@@ -133,7 +133,7 @@ footer {
     font-size: 16px;
 }
 
-/* Adiciona imagens de fundo diferentes */
+
 .feature1 {
     background-image: url(/img/alexander-grey-Wnkw2eNjvFc-unsplash.jpg);
     background-size: cover;
@@ -152,7 +152,7 @@ footer {
     background-position: center;
 }
 
-/* Adiciona opacidade ao fundo */
+
 .feature::after {
     content: "";
     position: absolute;
@@ -160,21 +160,21 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Opacidade de 50% */
+    background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 5px;
 }
 
-/* Estilo para o texto branco */
+
 .text-wrapper {
     position: relative;
-    z-index: 1; /* Certifica-se de que o texto esteja acima do fundo opaco */
-    color: white; /* Define a cor do texto como branco */
+    z-index: 1; 
+    color: white; 
 }
 
 .text-wrapper-banner {
     position: relative;
-    z-index: 1; /* Certifica-se de que o texto esteja acima do fundo opaco */
-    color: rgb(255, 255, 255); /* Define a cor do texto como branco */
+    z-index: 1; 
+    color: rgb(255, 255, 255); 
     
 }
 
@@ -211,18 +211,18 @@ footer {
 
 .testimonial img {
     width: 100px;
-    height: 100px; /* Defina a altura desejada */
+    height: 100px; 
     border-radius: 50%;
     margin-bottom: 10px;
-    object-fit: cover; /* Impede que a imagem seja distorcida */
-    border: 4px solid #fff; /* Adiciona um contorno branco de 2 pixels */
+    object-fit: cover; 
+    border: 4px solid #fff; 
 }
 
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Cria três colunas com largura igual */
-    gap: 20px; /* Espaçamento entre as imagens */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
 }
 
 .image img {
@@ -263,11 +263,11 @@ footer {
 
 
 .image-and-image {
-    display: flex; /* Define o layout como flexível */
+    display: flex; 
 }
 
 .image-container {
-    flex: 1; /* Faz com que ambos os elementos ocupem a mesma largura */
+    flex: 1; 
 }
 
 .image-container img {
@@ -276,14 +276,14 @@ footer {
 }
 
 .full-width-banner {
-    width: 100%; /* Define a largura da seção como 100% */
-    overflow: hidden; /* Garante que a imagem não ultrapasse os limites da seção */
+    width: 100%; 
+    overflow: hidden; 
 }
 
 .full-width-banner img {
-    width: 100%; /* Define a largura da imagem como 100% para preencher toda a largura da seção */
-    height: auto; /* Mantém a proporção da imagem */
-    display: block; /* Garante que a imagem não tenha espaços em branco ao redor */
+    width: 100%; 
+    height: auto; 
+    display: block; 
 }
 
 .title {
